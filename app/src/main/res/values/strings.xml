@@ -24,4 +24,10 @@
     <string name="verif_title">Verificación de datos</string>
     <string name="verif_subtitle">Datos correctos y admitidos</string>
     <string name="verif_button">Inicio</string>
+    <string name="title_activity_registrate">Registrate</string>
+
+    <string name="bienvenido_bienvenido">¡Bienvenido, conductor!</string>
+    <string name="bienvenido_autito">autito</string>
+    <string name="bienvenido_inicio">Inicio</string>
+    <string name="bienvenido_registro">Registro</string>
 </resources>
