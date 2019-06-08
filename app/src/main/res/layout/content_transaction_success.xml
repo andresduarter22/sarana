@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Transaction_success"
-    tools:showIn="@layout/activity_transaction_success">
+    tools:showIn="@layout/activity_transaction_success"
+    android:background="@color/background">
 
     <TextView
         android:id="@+id/transaction_success_title"

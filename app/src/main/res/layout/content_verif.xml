@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Verif"
-    tools:showIn="@layout/activity_verif">
+    tools:showIn="@layout/activity_verif"
+    android:background="@color/background">
     <TextView
         android:id="@+id/verif_title"
         android:layout_width="wrap_content"
