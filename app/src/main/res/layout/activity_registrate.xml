@@ -29,7 +29,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:ems="10"
-                android:text="@string/registrateTitulo" />
+                android:text="@string/registrateTitulo"
+                android:textSize="50sp" />
             <EditText
                 android:id="@+id/nombre"
                 android:layout_width="wrap_content"
