@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">sarana</string>
+    <string name="title_activity_inicia">inicia</string>
+    <string name="inicia_title">Inicia</string>
+    <string name="inicia_subtitle">Verifica tus datos</string>
+    <string name="inicia_name">Nombre: ******</string>
+    <string name="inicia_email">E-mail: ******</string>
+    <string name="inicia_vehicle">Vehículo: ******</string>
+    <string name="inicia_syndicate">Sindicato: ******</string>
+    <string name="inicia_plate">Placa: ******</string>
+    <string name="inicia_button">Comienza a trabajar</string>
+
 </resources>
