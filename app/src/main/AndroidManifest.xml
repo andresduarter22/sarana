@@ -10,13 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Transaction_fail"
+            android:label="@string/title_activity_transaction_fail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Transaction_success"
+            android:label="@string/title_activity_transaction_success"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Verif"
             android:label="@string/title_activity_verif"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Registrate"
             android:label="@string/title_activity_registrate"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Inicia"
             android:label="@string/title_activity_inicia"

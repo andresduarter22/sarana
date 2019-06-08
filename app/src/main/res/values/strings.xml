@@ -30,4 +30,12 @@
     <string name="bienvenido_autito">autito</string>
     <string name="bienvenido_inicio">Inicio</string>
     <string name="bienvenido_registro">Registro</string>
+    <string name="title_activity_transaction_success">Transaction_success</string>
+
+    <string name="transaction_success_title">Transacción correcta</string>
+    <string name="transaction_fail_title">Transacción incorrecta</string>
+    <string name="transaction_success_label">INGRESOS\nDEL DÍA</string>
+    <string name="transaction_fail_label">SALDO\nTARJETA</string>
+    <string name="dollar">$$$</string>
+    <string name="title_activity_transaction_fail">Transaction_fail</string>
 </resources>
