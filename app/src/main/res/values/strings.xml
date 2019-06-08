@@ -19,4 +19,9 @@
     <string name="placa">Placa</string>
     <string name="nro_de_cuenta">Nro. de cuenta</string>
     <string name="banco">Banco</string>
+    <string name="title_activity_verif">Verif</string>
+
+    <string name="verif_title">Verificación de datos</string>
+    <string name="verif_subtitle">Datos correctos y admitidos</string>
+    <string name="verif_button">Inicio</string>
 </resources>

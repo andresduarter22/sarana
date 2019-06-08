@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:text="@string/inicia_button"
         android:layout_marginTop="60dp"
-        android:background="#9090EE"
+        android:background="@color/colorPrimaryDark"
         android:padding="10dp"
         app:layout_constraintTop_toBottomOf="@id/inicia_plate"
         app:layout_constraintStart_toStartOf="parent"
