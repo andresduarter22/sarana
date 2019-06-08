@@ -4,15 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_width="333dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="48dp"
         android:text="@string/bienvenido_bienvenido"
+        android:textAlignment="center"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View style="@style/Divider"
+        android:backgroundTint="@color/black"
+        android:id="@+id/bienvenido_divider"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="332dp"
+
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,7 +37,7 @@
         android:id="@+id/autitoImagen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="176dp"
         android:contentDescription="@string/bienvenido_autito"
         android:src="@drawable/autito"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,23 +46,28 @@
 
     <Button
         android:id="@+id/inicioI"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="410dp"
+        android:layout_width="176dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="376dp"
+        android:background="@color/black"
         android:text="@string/bienvenido_inicio"
+        android:textColor="@color/white"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/registroI"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="528dp"
+        android:layout_width="255dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="496dp"
+        android:background="@color/black"
         android:text="@string/bienvenido_registro"
+        android:textColor="@color/white"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

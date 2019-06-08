@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".Registrate">
 
     <ScrollView
@@ -29,7 +30,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:ems="10"
-                android:text="@string/registrateTitulo" />
+                android:text="@string/registrateTitulo"
+                android:textSize="50sp" />
             <EditText
                 android:id="@+id/nombre"
                 android:layout_width="wrap_content"
@@ -129,7 +131,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="40dp"
-                android:text="@string/banco"/>
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"
+                android:text="@string/registrate_enviar"/>
 
         </LinearLayout>
     </ScrollView>
