@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">sarana</string>
+    <string name="registrateTitulo">Regístrate</string>
+    <string name="nombreR">Nombre</string>
+    <string name="carnet_de_identidadR">Carnet de Identidad</string>
+    <string name="e_mailR">E-Mail</string>
+    <string name="telefonoR">Teléfono</string>
+    <string name="codigo_de_sindicatoR">Código de sindicato</string>
+    <string name="placa">Placa</string>
+    <string name="nro_de_cuenta">Nro. de cuenta</string>
+    <string name="banco">Banco</string>
 </resources>
