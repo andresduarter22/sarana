@@ -19,4 +19,10 @@
     <string name="placa">Placa</string>
     <string name="nro_de_cuenta">Nro. de cuenta</string>
     <string name="banco">Banco</string>
+    <string name="title_activity_registrate">Registrate</string>
+
+    <string name="bienvenido_bienvenido">¡Bienvenido, conductor!</string>
+    <string name="bienvenido_autito">autito</string>
+    <string name="bienvenido_inicio">Inicio</string>
+    <string name="bienvenido_registro">Registro</string>
 </resources>
