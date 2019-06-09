@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Tu_dia"
+            android:label="@string/title_activity_tu_dia"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Transaction_fail"
             android:label="@string/title_activity_transaction_fail"
             android:theme="@style/AppTheme.NoActionBar"></activity>

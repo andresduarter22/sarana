@@ -39,4 +39,8 @@
     <string name="dollar">$$$</string>
     <string name="title_activity_transaction_fail">Transaction_fail</string>
     <string name="registrate_enviar">Enviar</string>
+    <string name="title_activity_tu_dia">Tu_dia</string>
+    <string name="tu_dia_titulo">Tu día</string>
+    <string name="tu_dia_usuario">Usuario: Jorge</string>
+    <string name="tu_dia_fecha">Fecha: 08/06/2019</string>
 </resources>
