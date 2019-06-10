@@ -20,16 +20,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <View style="@style/Divider"
-        android:backgroundTint="@color/black"
-        android:id="@+id/bienvenido_divider"
-        android:layout_width="395dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="332dp"
 
-        android:background="?android:attr/listDivider"
+    <View
+        android:id="@+id/main_divider"
+        style="@style/Divider"
+        android:layout_marginTop="160dp"
+        android:background="#505050"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

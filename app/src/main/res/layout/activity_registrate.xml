@@ -39,7 +39,8 @@
                 android:layout_marginTop="10dp"
                 android:ems="10"
                 android:hint="@string/nombreR"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:importantForAutofill="no" />
 
             <EditText
                 android:id="@+id/CI"
@@ -49,7 +50,7 @@
                 android:ems="10"
                 android:hint="@string/carnet_de_identidadR"
                 android:inputType="number"
-                android:autofillHints="" />
+                android:importantForAutofill="no" />
 
             <EditText
                 android:id="@+id/mail"
@@ -59,7 +60,7 @@
                 android:ems="10"
                 android:hint="@string/e_mailR"
                 android:inputType="textEmailAddress"
-                android:autofillHints="" />
+                android:importantForAutofill="no" />
 
             <EditText
                 android:id="@+id/telefono"
@@ -69,14 +70,16 @@
                 android:ems="10"
                 android:hint="@string/telefonoR"
                 android:inputType="phone"
-                android:autofillHints="" />
+                android:importantForAutofill="no" />
 
-            <View
-                android:id="@+id/divider"
-                android:layout_width="395dp"
-                android:layout_height="1dp"
-                android:layout_marginTop="30dp"
-                android:background="?android:attr/listDivider" />
+            <View style="@style/Divider"
+                android:id="@+id/registrate_divider1"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                app:layout_constraintTop_toBottomOf="@+id/inicia_email"
+                android:layout_marginTop="40dp"
+                android:background="#505050"/>
 
             <EditText
                 android:id="@+id/codigoTransito"
@@ -85,8 +88,8 @@
                 android:layout_marginTop="30dp"
                 android:ems="10"
                 android:hint="@string/codigo_de_sindicatoR"
-                android:inputType="textPersonName"
-                android:autofillHints="" />
+                android:importantForAutofill="no"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/placa"
@@ -96,14 +99,16 @@
                 android:ems="10"
                 android:hint="@string/placa"
                 android:inputType="textPersonName"
-                android:autofillHints="" />
+                android:importantForAutofill="no" />
 
-            <View
-                android:id="@+id/divider2"
-                android:layout_width="395dp"
-                android:layout_height="1dp"
-                android:layout_marginTop="30dp"
-                android:background="?android:attr/listDivider" />
+            <View style="@style/Divider"
+                android:id="@+id/registrate_divider2"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                app:layout_constraintTop_toBottomOf="@+id/inicia_email"
+                android:layout_marginTop="40dp"
+                android:background="#505050"/>
 
             <EditText
                 android:id="@+id/numeroCuenta"
@@ -113,7 +118,7 @@
                 android:ems="10"
                 android:hint="@string/nro_de_cuenta"
                 android:inputType="textPersonName"
-                android:autofillHints="" />
+                android:importantForAutofill="no" />
 
             <EditText
                 android:id="@+id/banco"
@@ -124,7 +129,7 @@
                 android:ems="10"
                 android:hint="@string/banco"
                 android:inputType="textPersonName"
-                android:autofillHints="" />
+                android:importantForAutofill="no" />
             <Button
                 android:id="@+id/btnEnviarR"
                 android:layout_width="wrap_content"
