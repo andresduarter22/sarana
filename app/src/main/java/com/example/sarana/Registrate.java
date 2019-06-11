@@ -1,5 +1,6 @@
 package com.example.sarana;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,4 +19,8 @@ public class Registrate extends AppCompatActivity {
 
     }
 
+    public void EnviarInfo(View view){
+        Intent i=new Intent(getApplicationContext(),Transaction_success.class);
+        startActivity(i);
+    }
 }

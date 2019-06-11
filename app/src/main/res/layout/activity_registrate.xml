@@ -139,7 +139,8 @@
                 android:textSize="25sp"
                 android:textColor="@color/white"
                 android:backgroundTint="@color/black"
-                android:text="@string/registrate_enviar"/>
+                android:text="@string/registrate_enviar"
+                android:onClick="EnviarInfo"/>
 
         </LinearLayout>
     </ScrollView>
