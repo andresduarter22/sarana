@@ -8,18 +8,19 @@
     tools:context=".Verif"
     tools:showIn="@layout/activity_verif"
     android:background="@color/background">
+
     <TextView
         android:id="@+id/verif_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="50sp"
+        android:layout_marginTop="72dp"
+        android:text="@string/verif_title"
         android:textAlignment="center"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        android:text="@string/verif_title" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/verif_check"
