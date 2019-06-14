@@ -3,11 +3,11 @@
     <string name="title_activity_inicia">inicia</string>
     <string name="inicia_title">Inicia</string>
     <string name="inicia_subtitle">Verifica tus datos</string>
-    <string name="inicia_name">Nombre: ******</string>
-    <string name="inicia_email">E-mail: ******</string>
-    <string name="inicia_vehicle">Vehículo: ******</string>
-    <string name="inicia_syndicate">Sindicato: ******</string>
-    <string name="inicia_plate">Placa: ******</string>
+    <string name="inicia_name">Nombre: Jorge Ayaviri</string>
+    <string name="inicia_email">E-mail: Jorgea@gmail.com</string>
+    <string name="inicia_vehicle">Vehículo: Toyota Corola 2011</string>
+    <string name="inicia_syndicate">Sindicato: Litoral</string>
+    <string name="inicia_plate">Placa: 123TYH</string>
     <string name="inicia_button">Comienza a trabajar</string>
 
     <string name="registrateTitulo">Regístrate</string>
