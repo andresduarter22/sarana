@@ -8,4 +8,9 @@
     <color name="background">#F2F1ED</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#525659</color>
+    <color name="blanquito_azulado_supongo">#DAE2D5</color>
+    <color name="red">#9B5152</color>
+    <color name="button">#434146</color>
+    <color name="green">#919c60</color>
+    <color name="light_green">#F1FCC0</color>
 </resources>

@@ -21,7 +21,7 @@
     <string name="banco">Banco</string>
     <string name="title_activity_verif">Verif</string>
 
-    <string name="verif_title">Verificación de datos</string>
+    <string name="verif_title">Verificación\n de datos</string>
     <string name="verif_subtitle">Datos correctos y admitidos</string>
     <string name="verif_button">Inicio</string>
     <string name="title_activity_registrate">Registrate</string>
@@ -43,4 +43,12 @@
     <string name="tu_dia_titulo">Tu día</string>
     <string name="tu_dia_usuario">Usuario: Jorge</string>
     <string name="tu_dia_fecha">Fecha: 08/06/2019</string>
+    <string name="ingresosDia">INGRESOS DEL DÍA </string>
+    <string name="dolar">$$$</string>
+    <string name="cerrar_sesion">CERRAR SESIÓN</string>
+    <string name="pasa_la_tarjeta_titulo">¡PASA LA TARJETA!</string>
+    <string name="pasa_la_tarjeta_espera_texto">      Espera la confirmación</string>
+    <string name="tu_dia_ingresos">Ingresos\ndel día</string>
+    <string name="tramo_largo">TRAMO\nLARGO</string>
+    <string name="tramo_corto">TRAMO\nCORTO</string>
 </resources>
