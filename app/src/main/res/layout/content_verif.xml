@@ -13,12 +13,13 @@
         android:id="@+id/verif_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/MONOPOLY_INLINE"
         android:text="@string/verif_title"
         android:textAlignment="center"
-        android:textSize="50sp"
+        android:textSize="70sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,10 +52,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/background"
         android:background="@color/colorPrimaryDark"
         app:layout_constraintTop_toBottomOf="@id/verif_subtitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
+        android:backgroundTint="@color/button"
         android:text="@string/verif_button"/>
 </android.support.constraint.ConstraintLayout>
