@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:fontFamily="@font/MONOPOLY_INLINE"
+                android:fontFamily="@font/monopoly_inline"
                 android:layout_marginTop="10dp"
                 android:ems="10"
                 android:text="@string/registrateTitulo"

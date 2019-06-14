@@ -1,5 +1,6 @@
 package com.example.sarana;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -16,5 +17,8 @@ public class Inicia extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
     }
-
+    public void TuDia(View view){
+        Intent i=new Intent(getApplicationContext(), Tu_dia.class);
+        startActivity(i);
+    }
 }

@@ -11,7 +11,7 @@
         android:layout_width="236dp"
         android:layout_height="132dp"
         android:layout_marginTop="92dp"
-        android:fontFamily="@font/MONOPOLY_INLINE"
+        android:fontFamily="@font/monopoly_inline"
         android:text="@string/pasa_la_tarjeta_titulo"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"

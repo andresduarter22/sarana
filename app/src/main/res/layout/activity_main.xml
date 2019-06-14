@@ -13,7 +13,7 @@
         android:layout_height="103dp"
         android:layout_marginTop="48dp"
         android:text="@string/bienvenido_bienvenido"
-        android:fontFamily="@font/MONOPOLY_INLINE"
+        android:fontFamily="@font/monopoly_inline"
         android:textAlignment="center"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"

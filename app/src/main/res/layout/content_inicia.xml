@@ -92,6 +92,7 @@
         android:layout_marginTop="60dp"
         android:background="@color/colorPrimaryDark"
         android:padding="10dp"
+        android:onClick="TuDia"
         app:layout_constraintTop_toBottomOf="@id/inicia_plate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
