@@ -20,7 +20,7 @@ public class Registrate extends AppCompatActivity {
     }
 
     public void EnviarInfo(View view){
-        Intent i=new Intent(getApplicationContext(),Transaction_success.class);
+        Intent i=new Intent(getApplicationContext(),Verif.class);
         startActivity(i);
     }
 }
