@@ -1,5 +1,6 @@
 package com.example.sarana;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -17,4 +18,8 @@ public class Verif extends AppCompatActivity {
         setSupportActionBar(toolbar);
     }
 
+    public void Inicio(View view){
+        Intent i=new Intent(getApplicationContext(),Inicia.class);
+        startActivity(i);
+    }
 }

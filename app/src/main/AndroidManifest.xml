@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".pasa_la_tarjeta"></activity>
         <activity
             android:name=".Tu_dia"
             android:label="@string/title_activity_tu_dia"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Transaction_fail"
             android:label="@string/title_activity_transaction_fail"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Transaction_success"
             android:label="@string/title_activity_transaction_success"

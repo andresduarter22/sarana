@@ -54,6 +54,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/background"
         android:background="@color/colorPrimaryDark"
+        android:onClick="Inicio"
         app:layout_constraintTop_toBottomOf="@id/verif_subtitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
