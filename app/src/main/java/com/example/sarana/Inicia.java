@@ -14,8 +14,6 @@ public class Inicia extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicia);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
     }
     public void TuDia(View view){
         Intent i=new Intent(getApplicationContext(), Tu_dia.class);
