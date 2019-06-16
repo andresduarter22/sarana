@@ -23,4 +23,9 @@ public class Tu_dia extends AppCompatActivity {
         Intent i=new Intent(getApplicationContext(),pasa_la_tarjeta.class);
         startActivity(i);
     }
+
+    public void Main(View view){
+        Intent i=new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(i);
+    }
 }

@@ -9,11 +9,11 @@
 
 
     <TextView
-        android:layout_width="333dp"
-        android:layout_height="103dp"
+        android:layout_width="337dp"
+        android:layout_height="112dp"
         android:layout_marginTop="48dp"
-        android:text="@string/bienvenido_bienvenido"
         android:fontFamily="@font/monopoly_inline"
+        android:text="@string/bienvenido_bienvenido"
         android:textAlignment="center"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,9 @@
     <View
         android:id="@+id/main_divider"
         style="@style/Divider"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="180dp"
+        android:layout_marginEnd="25dp"
         android:background="#505050"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
