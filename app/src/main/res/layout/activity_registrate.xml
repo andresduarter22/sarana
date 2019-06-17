@@ -50,9 +50,10 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:ems="10"
-                android:padding="10dp"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
-                android:importantForAutofill="no" />
+                android:padding="10dp"
+                android:text="Jorge Ayaviri" />
 
             <TextView
                 android:id="@+id/CarnetDeIdentidad"
@@ -63,16 +64,17 @@
 
             <EditText
                 android:id="@+id/CI"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:ems="10"
+                android:importantForAutofill="no"
                 android:inputType="number"
-                android:importantForAutofill="no" />
+                android:padding="10dp"
+                android:text="6567546 L.P" />
 
 
             <TextView
@@ -81,36 +83,40 @@
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
                 android:text="E-mail" />
+
             <EditText
                 android:id="@+id/mail"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:ems="10"
+                android:importantForAutofill="no"
                 android:inputType="textEmailAddress"
-                android:importantForAutofill="no" />
+                android:padding="10dp"
+                android:text="Jorgea@gmail.com" />
             <TextView
                 android:id="@+id/TelefonoText"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
                 android:text="Telefono" />
+
             <EditText
                 android:id="@+id/telefono"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:padding="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:ems="10"
+                android:importantForAutofill="no"
                 android:inputType="phone"
-                android:importantForAutofill="no" />
+                android:padding="15dp"
+                android:text="62227605" />
 
             <View
                 android:id="@+id/registrate_divider1"
@@ -129,18 +135,20 @@
                 android:layout_marginTop="20dp"
                 android:textSize="20dp"
                 android:text="Codigo de Sindicato" />
+
             <EditText
                 android:id="@+id/codigoTransito"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:ems="10"
                 android:importantForAutofill="no"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Litoral" />
 
             <TextView
                 android:id="@+id/CodtransitoText"
@@ -148,18 +156,20 @@
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
                 android:text="Placa" />
+
             <EditText
                 android:id="@+id/placa"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:ems="10"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
-                android:importantForAutofill="no" />
+                android:padding="10dp"
+                android:text="123TYH" />
 
             <View style="@style/Divider"
                 android:id="@+id/registrate_divider2"
@@ -178,18 +188,20 @@
                 android:layout_marginTop="40dp"
                 android:textSize="20dp"
                 android:text="Numero de Cuenta" />
+
             <EditText
                 android:id="@+id/numeroCuenta"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
                 android:ems="10"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
-                android:importantForAutofill="no" />
+                android:padding="10dp"
+                android:text="1235668974" />
 
             <TextView
                 android:id="@+id/Banco"
@@ -200,16 +212,17 @@
 
             <EditText
                 android:id="@+id/banco"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:ems="10"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
-                android:importantForAutofill="no" />
+                android:padding="10dp"
+                android:text="Union" />
 
             <Button
                 android:id="@+id/btnEnviarR"
